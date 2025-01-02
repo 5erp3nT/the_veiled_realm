@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Creation</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ensure this path is correct -->
+</head>
+<body>
+    <header>
+        <h1>Create Your Character</h1>
+    </header>
+    <main>
+        <form id="characterForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="race">Race:</label>
+            <select id="race" name="race">
+                <option value="Elf">Elf</option>
+                <option value="Human">Human</option>
+                <option value="Dwarf">Dwarf</option>
+            </select>
+            
+            <label for="class_type">Class:</label>
+            <select id="class_type" name="class_type">
+                <option value="Warrior">Warrior</option>
+                <option value="Mage">Mage</option>
+                <option value="Rogue">Rogue</option>
+            </select>
+        
+            <h3>Stats</h3>
+            <label for="strength">Strength:</label>
+            <input type="number" id="strength" name="strength" value="10">
+            
+            <label for="intelligence">Intelligence:</label>
+            <input type="number" id="intelligence" name="intelligence" value="10">
+            
+            <label for="charisma">Charisma:</label>
+            <input type="number" id="charisma" name="charisma" value="10">
+            
+            <label for="stealth">Stealth:</label>
+            <input type="number" id="stealth" name="stealth" value="10">
+            
+            <label for="dexterity">Dexterity:</label>
+            <input type="number" id="dexterity" name="dexterity" value="10">
+            
+            <button type="submit">Create Character</button>
+        </form>
+    </main>
+    <script src="character_creation.js" defer></script> <!-- Load character creation script -->
+</body>
+</html>

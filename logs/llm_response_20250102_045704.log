@@ -1,0 +1,28 @@
+{
+    "RESPONSE": "You turn and walk back along the path you previously took, the trees on either side of you closing in as you do. The canopy thickens once more, casting the path in shadows. The air is cool and damp, with the smell of wet earth and decaying leaves. A pair of squirrels chatter at you from a high branch before scurrying off.  To the west the path leads back to the clearing you were just in. To the north, a small game trail appears to disappear into the brush.",
+    "GAME_STATE_UPDATE": [
+      {
+        "MOVING": "east"
+      },
+      {
+        "Location": {
+          "name": "Narrow Path",
+           "description": "The trees have closed in around the path, creating a gloomy tunnel of foliage. The air is damp and smells of wet earth. To the west, the path opens back up into a clearing. To the north, a small game trail disappears into the brush.",
+            "coordinates": {
+                "x": 1,
+                "y": 1
+              },
+           "paths":[
+              {
+                 "description": "the path leads back to the clearing",
+                 "cardinal_direction": "west"
+               },
+                {
+                   "description": "a game trail disappears into the undergrowth.",
+                   "cardinal_direction": "north"
+                }
+             ]
+         }
+      }
+    ]
+}

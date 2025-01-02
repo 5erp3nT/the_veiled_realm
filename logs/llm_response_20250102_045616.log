@@ -1,0 +1,44 @@
+{
+    "RESPONSE": "You step north, leaving the tranquil clearing. The trees grow denser here, their ancient branches intertwined overhead, creating a canopy so thick that only slivers of sunlight penetrate. The air feels cooler, and the magical hum that was so palpable in the glade is less intense. The ground is soft with moss and fallen leaves, muffling your footsteps. The faint sound of the stream has faded into the background, replaced by the rustling of leaves and the distant calls of birds.\n\nBefore you, the path splits. To the east, the trees thin slightly, hinting at an opening. To the west, the path disappears between a pair of immense trees, their gnarled roots forming a natural archway. To the north, the path continues forward into the woods, its destination obscured by the shadows.",
+    "GAME_STATE_UPDATE": [
+        {
+            "Location": {
+                "name": "Shadowed Path",
+                "description": "The trees grow denser here, their ancient branches intertwined overhead, creating a canopy so thick that only slivers of sunlight penetrate. The air feels cooler, and the magical hum that was so palpable in the glade is less intense. The ground is soft with moss and fallen leaves, muffling your footsteps.",
+                "coordinates": [
+                    1,
+                    0
+                ],
+                "paths": [
+                    {
+                        "description": "To the east, the trees thin slightly, hinting at an opening.",
+                        "cardinal_direction": "east",
+                        "destination_coordinates": [
+                            1,
+                            1
+                        ]
+                    },
+                     {
+                        "description": "To the west, the path disappears between a pair of immense trees, their gnarled roots forming a natural archway.",
+                        "cardinal_direction": "west",
+                        "destination_coordinates": [
+                            1,
+                            -1
+                        ]
+                    },
+                    {
+                        "description": "To the north, the path continues forward into the woods, its destination obscured by the shadows.",
+                        "cardinal_direction": "north",
+                        "destination_coordinates": [
+                            2,
+                            0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "MOVING": "north"
+        }
+    ]
+}

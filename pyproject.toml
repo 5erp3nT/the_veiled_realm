@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "the_veiled_realm"
+version = "0.1.0"
+description = "A text-based fantasy RPG game"
+requires-python = ">=3.7"
+dependencies = [
+	"google-generativeai",
+	"python-dotenv",
+]

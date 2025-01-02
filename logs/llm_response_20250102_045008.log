@@ -1,0 +1,31 @@
+{
+    "RESPONSE": "You turn and begin to walk south, leaving the tranquility of the Whispering Glade behind. The trees here are not as old and wise as in the glade. They still reach up to the heavens, but they are thinner and spaced further apart. The light here is not dappled like in the glade, instead it is a direct bright sunlight, warming your skin. The scent of moonpetal flowers is fainter here, instead the air is crisp and clear with the distinct scent of pine. The forest floor here is covered in pine needles, making a soft carpet beneath your feet. A small stream bubbles nearby, it looks shallow and easily fordable. You can see that it flows from the pool in the glade to the north.\n\nA narrow path leads west into the woods. There is a thick impassable thicket to the east, and a small stream to the north.",
+    "GAME_STATE_UPDATE": [
+        {
+            "MOVING": "south"
+        },
+        {
+            "name": "Sunlit Forest",
+            "description": "Sunlight filters through the forest canopy, creating a bright and open atmosphere. The air is crisp and clear, filled with the scent of pine. The forest floor is covered in pine needles. A small stream flows from the north.",
+            "coordinates": "1,-1",
+            "paths": [
+                {
+                  "description": "A narrow path leading west into the woods.",
+                  "cardinal_direction": "west"
+                },
+                {
+                  "description": "A small stream flows to the north.",
+                  "cardinal_direction": "north"
+                },
+                {
+                  "description": "A thick impassable thicket blocks passage to the east.",
+                  "cardinal_direction": "east"
+                }
+              ]
+        },
+        {
+             "ID": "98fb91fd-61ef-4f95-be54-b40389a5cfb9",
+            "Location": "Sunlit Forest"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+```json
+{
+  "Location": {
+    "name": "The Whispering Glade",
+    "description": "Sunlight filters through the dense canopy of ancient trees, dappling the forest floor in a mosaic of light and shadow. The air is thick with the scent of damp earth and blooming nightflowers. A gentle stream meanders through the glade, its waters clear and cool. Strange, luminous moss clings to the rocks and tree roots, casting an ethereal glow. Here, the veil between the mundane and the arcane feels especially thin.",
+    "coordinates": "23N, 47E",
+    "items": [
+      {
+        "name": "A Worn Leather-Bound Journal",
+        "description": "The cover is scuffed and faded, but the pages within are filled with meticulous notes and arcane diagrams."
+      },
+      {
+        "name": "A Smooth, Grey Pebble",
+        "description": "The stone pulses with a faint, inner light when held."
+      }
+    ],
+     "npcs": [
+      {
+        "name": "Old Man Hemlock",
+        "description": "A wizened human herbalist with a long, grey beard and kind eyes.",
+        "race": "Human",
+        "class_type": "Herbalist",
+        "health": 80,
+        "mana": 30,
+        "inventory": [
+          {
+            "name": "Healing Poultice",
+            "description": "A small pouch of herbs that can quickly mend small wounds."
+           }
+         ],
+         "stats": {
+          "strength": 8,
+          "intelligence": 12,
+          "wisdom": 15,
+           "charisma": 10,
+          "stealth": 7,
+          "dexterity": 8,
+           "constitution": 10
+        },
+       "party_potential": 0,
+        "level": 3,
+        "experience": 150
+      }
+    ],
+    "paths": [
+      {
+        "description": "A narrow, overgrown path winding deeper into the forest.",
+        "destination_coordinates": "25N, 49E",
+          "cardinal_direction": "East"
+      },
+      {
+        "description": "A barely visible trail leading towards a rocky hill.",
+         "destination_coordinates": "20N, 45E",
+         "cardinal_direction": "South"
+      },
+      {
+        "description": "A well-worn path heading towards a distant village.",
+         "destination_coordinates": "23N, 43E",
+         "cardinal_direction": "West"
+       }
+    ]
+  }
+}
+```

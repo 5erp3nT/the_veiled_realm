@@ -1,0 +1,36 @@
+{
+    "RESPONSE": "The luminous moss fades behind you as you step west, leaving the dappled sunlight of the glade. The trees here grow even more densely, their ancient branches intertwined overhead, creating a twilight gloom. A narrow, winding path leads deeper into the woods, barely visible beneath a carpet of fallen leaves. The air is heavy with a musky aroma of pine and decaying wood. To the east, the path returns to the Whispering Glade. A faint, melodic humming can be heard from the north, carried on the gentle breeze. The south is blocked by a thicket of thorny bushes, impassable without significant effort. At the base of a gnarled tree, you spot a small, leather-bound journal.",
+    "GAME_STATE_UPDATE": [
+        {
+            "Location": {
+                "name": "The Murkwood Path",
+                "description": "The trees here grow even more densely, their ancient branches intertwined overhead, creating a twilight gloom. A narrow, winding path leads deeper into the woods, barely visible beneath a carpet of fallen leaves. The air is heavy with a musky aroma of pine and decaying wood.",
+                "coordinates": "1,-1",
+                 "items": [
+                    {
+                        "name": "Leather Journal",
+                        "description": "A small, leather-bound journal. Its pages are worn and yellowed."
+                    }
+                 ],
+                "paths": [
+                    {
+                        "description": "the path returning to the Whispering Glade.",
+                        "cardinal_direction": "east",
+                         "destination_coordinates": "0,0"
+                    },
+                    {
+                        "description": "a narrow, winding path leads deeper into the woods.",
+                         "cardinal_direction": "north",
+                        "destination_coordinates": "1,0"
+                    },
+                     {
+                        "description": "a thicket of thorny bushes, impassable without significant effort.",
+                         "cardinal_direction": "south"
+                    }
+
+                ]
+            }
+        },
+         {"MOVING": "west"}
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "RESPONSE": "The trees ahead stand as an impenetrable wall of green, their branches interwoven like a stubborn barricade. You can see no path leading east from here. The forest seems to discourage further passage in that direction. The air hangs heavy and still, broken only by the occasional drip of moisture from the leaves above. The path continues to the west, opening up into what looks like a sunlit clearing, and a barely noticeable game trail disappears into the northern undergrowth.",
+    "GAME_STATE_UPDATE": [
+        {
+            "Location": {
+                "name": "Narrow Path",
+                "description": "The trees have closed in around the path, creating a gloomy tunnel of foliage. The air is damp and smells of wet earth. To the west, the path opens back up into a clearing. To the north, a small game trail disappears into the brush.",
+                 "coordinates": "1,1",
+                "paths":[
+                     {
+                        "description": "The path continues to the west, opening up into what looks like a sunlit clearing.",
+                        "cardinal_direction": "west",
+                         "destination_coordinates": "0,1"
+                    },
+                    {
+                       "description": "A barely noticeable game trail disappears into the northern undergrowth.",
+                       "cardinal_direction": "north",
+                         "destination_coordinates": "1,2"
+                    }
+                ]
+            }
+        }
+    ]
+}

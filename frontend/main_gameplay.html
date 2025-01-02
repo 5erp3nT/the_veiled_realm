@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Adventure Awaits!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main_gameplay.js" defer></script>
+    <!-- Google Fonts for a modern look -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Your Adventure Awaits!</h1>
+    </header>
+    <div class="container">
+        <!-- Stats Panel with a card-like design -->
+        <aside id="statsPanel">
+            <h2>Player Stats</h2>
+            <div class="stat-item">
+                <span class="stat-label">Health:</span>
+                <span id="playerHealth" class="stat-value">100</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Inventory:</span>
+                <span id="playerInventory" class="stat-value">None</span>
+            </div>
+        </aside>
+        <!-- Game Area with a sleek chat window -->
+        <main id="gameArea">
+            <div id="chatWindow">
+                <div id="narratorMessages" class="messages-container"></div>
+                <div class="input-group">
+                    <input type="text" id="playerInput" placeholder="Type your response here..." />
+                    <button id="sendMessage" class="send-button">Send</button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

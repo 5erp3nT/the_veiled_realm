@@ -1,0 +1,8 @@
+flask
+flask-pymongo
+requests
+google-auth
+google-auth-oauthlib
+flask-cors
+google.generativeai
+python-dotenv

@@ -1,0 +1,29 @@
+{
+    "RESPONSE": "You reach into your pack, rustling the worn leather. Empty. Your inventory is bare, save for the clothes on your back and the simple staff you carry. You have nothing to utilize at the moment. The damp air clings to your skin, and the oppressive shade of the trees makes it difficult to see very far. The only sounds are the drip, drip, drip of water and the occasional rustle of unseen creatures in the undergrowth. The narrow path you stand on continues to the north, disappearing into the thicket, while to the west, a brighter vista beckons from where you came.",
+  "GAME_STATE_UPDATE": [
+        {
+            "Player": {
+                "ID": "3a767c7e-72f8-4674-aa57-99d0b6426557",
+                "Name": "Dave",
+                "Race": "Elf",
+                "Class": "Mage",
+                "Health": 100,
+                "Mana": 100,
+                 "Level": 1,
+                "Experience": 0,
+                "Inventory": [],
+                 "Stats": {
+                        "Strength": 11,
+                        "Intelligence": 16,
+                        "Wisdom": 13,
+                        "Charisma": 12,
+                        "Stealth": 12,
+                        "Dexterity": 12,
+                        "Constitution": 11
+                 },
+                "Party Members": [],
+                "Active Quests": []
+            }
+        }
+    ]
+}

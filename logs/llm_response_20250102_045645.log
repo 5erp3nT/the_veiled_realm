@@ -1,0 +1,42 @@
+{
+    "RESPONSE": "The shadowed path continues, the trees on either side of you so close their branches intertwine above, creating a natural tunnel. You push through the final screen of undergrowth and find yourself in a small clearing. The canopy above opens up slightly, allowing a few more rays of sunlight to reach the mossy ground. A small, clear stream trickles through the clearing, its gentle murmur breaking the silence of the woods. To the east, the path appears to lead back the way you came. To the south, you notice a narrow path that seems to disappear deeper into the woods, while to the north the path opens into a wider clearing.\n\nAt the edge of the stream, you see a shimmering, smooth, pale stone and nearby a fallen branch with some sort of writing on it. It looks like some sort of map.\n",
+    "GAME_STATE_UPDATE": [
+        {
+            "Location": {
+                "name": "Small Clearing",
+                "description": "A small clearing where the tree canopy opens up slightly, allowing a few more rays of sunlight to reach the mossy ground. A small, clear stream trickles through the clearing. To the east, the path appears to lead back the way you came. To the south, you notice a narrow path that seems to disappear deeper into the woods, while to the north the path opens into a wider clearing.",
+                 "coordinates": "0,-1",
+                 "items": [
+                    {
+                        "name": "Smooth Stone",
+                        "description": "A shimmering, smooth, pale stone."
+                    },
+                     {
+                        "name": "Branch Map",
+                        "description": "A fallen branch with some sort of writing on it. It looks like some sort of map."
+                    }
+                ],
+                "paths": [
+                    {
+                         "description": "The path to the east leads back the way you came.",
+                        "cardinal_direction": "east",
+                        "destination_coordinates": "0,0"
+                    },
+                     {
+                        "description": "A narrow path to the south disappears deeper into the woods.",
+                        "cardinal_direction": "south",
+                         "destination_coordinates": "0,-2"
+
+                    },
+                     {
+                        "description": "The path to the north opens into a wider clearing.",
+                        "cardinal_direction": "north",
+                        "destination_coordinates": "0,0"
+                    }
+                  
+                ]
+            }
+        },
+        {"MOVING": "west"}
+    ]
+}

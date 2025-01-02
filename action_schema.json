@@ -1,0 +1,90 @@
+{
+    "Item": {
+      "required": ["name", "description"],
+      "properties": {
+        "name": "string",
+        "description": "string"
+      }
+    },
+    "Path": {
+      "required": ["description", "destination_coordinates", "cardinal_direction"],
+      "properties": {
+        "description": "string",
+        "cardinal_direction": "string"
+      }
+    },
+    "Location": {
+      "required": ["name", "description", "coordinates"],
+      "properties": {
+        "name": "string",
+        "description": "string",
+        "items": "Item[]",
+        "npcs": "NPC[]",
+        "paths": "Path[]"
+      }
+    },
+    "NPC": {
+      "required": ["name", "description", "race", "class_type"],
+      "properties": {
+        "name": "string",
+        "description": "string",
+        "race": "string",
+        "class_type": "string",
+        "health": "number(default:100)",
+        "mana": "number(default:100)",
+        "inventory": "Item[]",
+        "stats": {
+            "strength": "number(default:10)",
+            "intelligence": "number(default:10)",
+            "wisdom": "number(default:10)",
+            "charisma": "number(default:10)",
+            "stealth": "number(default:10)",
+            "dexterity": "number(default:10)",
+            "constitution": "number(default:10)"
+            },
+        "party_potential": "number(default:0)",
+        "level": "number(default:1)",
+        "experience": "number(default:0)"
+      }
+    },
+    "QuestCriteria": {
+      "required": ["description"],
+      "properties": {
+        "description": "string",
+        "completed": "boolean(default:false)"
+      }
+    },
+    "Quest": {
+      "required": ["name", "description", "criteria"],
+      "properties": {
+        "name": "string",
+        "description": "string",
+        "criteria": "QuestCriteria[]",
+        "completed": "boolean(default:false)"
+      }
+    },
+    "Player": {
+      "required": ["name", "race", "class_type"],
+      "properties": {
+        "name": "string",
+        "race": "string",
+        "class_type": "string",
+        "health": "number(default:100)",
+        "mana": "number(default:100)",
+        "inventory": "Item[]",
+        "stats": {
+            "strength": "number(default:10)",
+            "intelligence": "number(default:10)",
+            "wisdom": "number(default:10)",
+            "charisma": "number(default:10)",
+            "stealth": "number(default:10)",
+            "dexterity": "number(default:10)",
+            "constitution": "number(default:10)"
+        },
+        "level": "number(default:1)",
+        "party_members": "NPC[]",
+        "quest_list": "Quest[]"
+      }
+    }
+}
+  
